@@ -1,10 +1,11 @@
 body {
 	font-family: 'Titillium Web', sans-serif;
-	color: #FF8C00;
+	color: #009900;
+	background-color: #000000;
 }
 
 .text-muted {
-	color: #FFA500;
+	color: #009933;
 }
 
 .text-fat {
@@ -17,8 +18,25 @@ body {
 
 .title-logo {
 	margin-top: 20px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 .title-super {
 	font-size: 60px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: #009900; 
+    background-color: #009900; 
+}
+
+p {
+	max-width: 33%;
+}
+
+.specialeffects:hover {
+	background-color: #00FF00;
 }
